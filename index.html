@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="icon" type="image/png" href="./assets/img/logo-icon.png" />
+    <link rel="stylesheet" href="./assets/mediaqueries.css" />
     <script
       src="https://kit.fontawesome.com/ce3573d0d5.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <!--header-->
+  <body <!--header-->
     <header class="header">
       <img
         class="logo"
@@ -23,12 +23,16 @@
       />
       <!--navbar-->
       <nav class="navbar">
+        <label for="toggle-menu" class="menu-icon"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+        <input type="checkbox" id="toggle-menu" />
         <ul class="navbar-list">
           <li>
-            <a href="#Home"><i class="fas fa-home"></i>Home</a>
+            <a href="#hero"><i class="fas fa-home"></i>Home</a>
           </li>
           <li>
-            <a href="#Nosotros"><i class="fa-solid fa-user"></i>Nosotros</a>
+            <a href="#hero-about"><i class="fa-solid fa-user"></i>Nosotros</a>
           </li>
           <li>
             <a href="#Productos"
@@ -36,18 +40,14 @@
             >
           </li>
           <li>
-            <a href="https://wa.me/5493516827859" target="_blank"
-              ><i class="fa-sharp fa-solid fa-phone"></i>Contacto</a
+            <a href="#contact"
+              ><i class="fa-sharp fa-solid fa-clipboard-check"></i>Contacto</a
             >
           </li>
         </ul>
-
-        <a href="car-nav"
-          ><i class="fa-sharp fa-solid fa-cart-shopping cart-icon"></i
-        ></a>
       </nav>
     </header>
-    <hr />
+
     <main>
       <!--hero-->
       <section id="hero">
@@ -68,7 +68,7 @@
             de los mejores rifles pcp, reconocidos por su calidad excepcional y
             prestaciones.
           </p>
-          <div class="boton-container">
+          <div class="button-container">
             <a href="https://wa.me/5493516827859" target="_blank">Contacto</a>
 
             <a href="#">Catalogo</a>
@@ -82,10 +82,10 @@
       <hr />
       <!--hero info-->
       <section id="hero-about">
-        <h3 class="color-h3">
+        <h2 class="color-h2">
           <img src="./assets/img/fire.png" alt="fuego" />Quiénes somos
           <img src="./assets/img/fire.png" alt="fuego" />
-        </h3>
+        </h2>
         <div class="hero-about-container">
           <p>
             Somos una empresa Argentina con sede en Córdoba capital y contamos
@@ -100,6 +100,80 @@
           </p>
         </div>
         <hr />
+      </section>
+
+      <hr />
+
+      <!--section info-cards-->
+
+      <section id="info">
+        <h2>Sus Ventajas</h2>
+        <p class="info-p">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae,
+          asperiores aspernatur vel nobis facilis quaerat quasi nisi.
+        </p>
+        <div class="cards-container">
+          <div class="info-card">
+            <img src="./assets/img/undraw_security_on_re_e491.svg" alt="" />
+            <h3>Garantia Extendida</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+              sint provident, adipisci veritatis perspiciatis quod beatae
+              placeat numquam, sequi quia aliquid asperiores dolorem doloremque
+              blanditiis modi laborum dolor eligendi est.
+            </p>
+          </div>
+          <div class="info-card">
+            <img src="./assets/img/undraw_discount_d-4-bd.svg" alt="" />
+            <h3>El mejor precio</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consectetur velit iusto odio adipisci accusantium aspernatur
+              magnam! Eum accusamus magnam porro vel cumque dolorem temporibus
+              quia! Deserunt ducimus quae eligendi consequatur!
+            </p>
+          </div>
+          <div class="info-card">
+            <img src="./assets/img/undraw_product_iteration_kjok.svg" alt="" />
+            <h3>Experiencia</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae at veritatis optio? Itaque accusamus nisi praesentium
+              ducimus vel mollitia beatae? Dicta eaque id, velit doloribus
+              incidunt nostrum doloremque pariatur accusamus.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <!--section contact-->
+      <section id="contact">
+        <div class="contact-container">
+          <!--contact -->
+          <div class="contact-info">
+            <h2>Contacto</h2>
+            <p>Cordoba , Argentina</p>
+
+            <a
+              href="https://www.google.com/maps/place/Armer%C3%ADa+Suiza+Fundada+en+1888+Suc.+Olmos/@-31.4142337,-64.1819397,20.65z/data=!4m6!3m5!1s0x9432a29d3677dcef:0xcb5bee5f3b808be7!8m2!3d-31.4141682!4d-64.1818258!16s%2Fg%2F11gh048_bq?hl=es"
+              target="_blank"
+              ><i class="fa-solid fa-shop"></i>Calle falsa 123</a
+            >
+            <a href="https://outlook.live.com/owa/" target="_blank">
+              <i class="fa-sharp fa-regular fa-envelope"></i>hc@hotmail.com</a
+            >
+            <a href="https://wa.me/5493516827859" target="_blank">
+              <i class="fa-sharp fa-solid fa-phone"></i>+543516827859</a
+            >
+          </div>
+          <img
+            class="contact-img"
+            src="./assets//img/cometa-lynx-v10-pack-carabina-de-pcp-de-alta-precision-regulada-bomba-visor_pic8732ni1t0.jpg"
+            alt=""
+          />
+        </div>
       </section>
     </main>
   </body>
