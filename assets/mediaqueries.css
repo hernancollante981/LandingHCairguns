@@ -17,9 +17,8 @@
   --fire: #ff6d00;
   --electric: #64d3ff;
 }
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .navbar {
-    flex-direction: row-reverse;
     gap: 10px;
   }
   .menu-label {
@@ -46,17 +45,11 @@
     background-color: rgba(255, 255, 255, 85%);
     display: none;
   }
-  .menu-icon {
-    display: flex;
-    cursor: pointer;
-    order: 2;
-    color: white;
-    padding-right: 30px;
-  }
 
   #toggle-menu:checked + .navbar-list {
     display: flex;
   }
+
   .hero-info {
     width: 100%;
     display: flex;
@@ -81,15 +74,5 @@
     justify-content: center;
     text-align: center;
     width: 350px;
-  }
-}
-
-@media (max-width: 280px) {
-  .navbar {
-    display: flex;
-    width: 100%;
-  }
-  .header {
-    width: 100%;
   }
 }
