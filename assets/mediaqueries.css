@@ -124,7 +124,7 @@
   /*info-cards*/
   #info {
     padding-bottom: 80px;
-    background-color: var(--btn-bg);
+    background-color: white;
     gap: 60px;
   }
   .cards-container {

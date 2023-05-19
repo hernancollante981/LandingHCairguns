@@ -204,14 +204,17 @@ header {
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 80px;
-  background: rgb(223, 223, 255);
+  width: 100%;
+  margin: 0 auto;
+  background: rgb(1, 0, 38);
   background: linear-gradient(
     90deg,
-    rgba(223, 223, 255, 1) 0%,
-    rgba(205, 205, 255, 1) 50%,
-    rgba(223, 223, 255, 1) 100%
+    rgba(1, 0, 38, 1) 0%,
+    rgba(2, 0, 77, 1) 50%,
+    rgba(1, 0, 38, 1) 100%
   );
-  box-shadow: 0 0 5px rgb(138, 138, 175);
+  box-shadow: 0 2px 5px rgb(1, 0, 38);
+
   border: 2px solid black;
 }
 
@@ -225,7 +228,7 @@ header {
   font-weight: 300;
   margin: 40px;
   word-spacing: 5px;
-  color: black;
+  color: white;
 }
 .color-h2 {
   font-weight: bold;
@@ -250,19 +253,23 @@ header {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: var(--btn-bg);
+  background-color: white;
   gap: 40px;
   padding-bottom: 50px;
+  box-shadow: 0 0 5px rgb(138, 138, 175);
 }
 #info h2 {
   font-size: 32px;
   font-weight: 800;
-  color: white;
+  background: linear-gradient(to bottom, black, gray);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 .info-p {
-  color: var(--text-gray);
+  color: var(--btn-bg);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   padding-bottom: 50px;
 }
 .cards-container {
@@ -275,6 +282,7 @@ header {
 }
 
 .info-card {
+  box-shadow: 0 2px 5px rgb(1, 0, 38);
   width: 250px;
   height: 400px;
   background-color: white;
@@ -312,7 +320,7 @@ header {
   text-align: center;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 100px;
+  padding-bottom: 160px;
   flex-wrap: wrap;
   gap: 40px;
 }
@@ -324,11 +332,13 @@ header {
 .marcas-h2 {
   text-align: center;
 
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 50px;
   border-radius: 10px;
   font-size: 32px;
   font-weight: 900;
+  width: 100%;
+  margin: 0 auto;
   background: rgb(223, 223, 255);
   background: linear-gradient(
     90deg,
@@ -411,6 +421,7 @@ header {
   font-size: 40px;
   border-radius: 2px;
 }
+/*footer*/
 .footer {
   width: 100%;
   background-image: url(./img/Sin\ título.png);
