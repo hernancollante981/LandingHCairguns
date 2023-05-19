@@ -124,7 +124,7 @@ header {
   width: 40%;
   height: 500px;
   gap: 50px;
-  background-color: rgba(255, 255, 255, 65%);
+  background-color: var(--btn-bg);
   border-radius: 10px;
 }
 .hero-info-h1 {
@@ -147,7 +147,7 @@ header {
   font-weight: 400;
   text-align: center;
   justify-content: center;
-  color: black;
+  color: white;
   -webkit-text-stroke: 0.1px gray;
   word-spacing: 3px;
   font-family: "Poppins", sans-serif;
