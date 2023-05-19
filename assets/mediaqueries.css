@@ -123,13 +123,16 @@
 
   /*info-cards*/
   .cards-container {
+    width: 100vw;
     background-color: red;
-    padding-bottom: 50px;
-    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    gap: 90px;
   }
 
   .info-card {
     background-color: #1e50ff;
     box-shadow: white;
+    gap: 20px;
   }
 }
