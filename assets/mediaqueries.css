@@ -42,7 +42,7 @@
     border-radius: 0px 0px 15px 15px;
     gap: 80px;
     z-index: 2;
-    background-color: rgba(255, 255, 255, 0.925);
+    background-color: rgba(255, 255, 255, 0.556);
     display: none;
     padding-bottom: 20px;
   }
@@ -81,9 +81,9 @@
   }
 }
 
-@media screen and (max-width: 552px) {
+@media screen and (max-width: 572px) {
   /*adaptado para celu*/
-
+  /*hero*/
   .hero-info {
     padding-bottom: 80px;
     display: flex;
@@ -111,7 +111,7 @@
 
   .contact-info {
     padding-top: 50px;
-    width: 100%;
+    width: 100vw;
     padding-bottom: 80px;
   }
 
@@ -122,16 +122,26 @@
   }
 
   /*info-cards*/
+  #info {
+    padding-bottom: 80px;
+    background-color: var(--btn-bg);
+    gap: 60px;
+  }
   .cards-container {
     width: 100vw;
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 20px;
     gap: 90px;
   }
 
   .info-card {
-    background-color: #1e50ff;
-    box-shadow: white;
+    background-color: white;
     gap: 20px;
+  }
+  /*footer*/
+
+  .footer {
+    max-width: 100%;
   }
 }
