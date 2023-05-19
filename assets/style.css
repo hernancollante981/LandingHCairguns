@@ -37,6 +37,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-decoration: none;
   list-style: none;
+  border: 1px solid red;
 }
 
 /*header*/
@@ -124,7 +125,8 @@ header {
   width: 40%;
   height: 500px;
   gap: 50px;
-  background-color: var(--btn-bg);
+  background-color: rgba(255, 255, 255, 65%);
+
   border-radius: 10px;
 }
 .hero-info-h1 {
@@ -144,15 +146,16 @@ header {
 .hero-info p {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 900;
   text-align: center;
   justify-content: center;
-  color: white;
-  -webkit-text-stroke: 0.1px gray;
+  color: black;
+  -webkit-text-stroke: 1px black;
   word-spacing: 3px;
   font-family: "Poppins", sans-serif;
   padding-left: 50px;
   padding-right: 50px;
+  gap: 60px;
 }
 .hero-info span {
   font-weight: 900;
@@ -311,7 +314,6 @@ header {
   width: 100%;
   background-color: white;
   flex-wrap: wrap;
-  padding-top: 80px;
   padding-top: 150px;
   padding-bottom: 100px;
 }
@@ -319,26 +321,29 @@ header {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  width: 50%;
+  width: 30%;
   gap: 30px;
+  padding-right: 50px;
 }
 
 #contact h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom, red, blue);
+  background: linear-gradient(to bottom, black, white);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 2.5em;
   font-weight: 800;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 .contact-info p {
   font-size: 2em;
+  font-weight: 500;
   padding-bottom: 20px;
   color: #272d37;
+  margin-left: 40px;
 }
 
 .contact-info a {
@@ -347,13 +352,20 @@ header {
 }
 
 .contact-img {
-  width: 50%;
-  height: 300px;
+  width: 60%;
+  height: 350px;
   border-radius: 10px;
 }
 
 .contact-info i {
-  color: #1e50ff;
+  color: blue;
   font-size: 20px;
-  margin-right: 10px;
+  margin-right: 20px;
+}
+.red-social i {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  border-radius: 2px;
 }
