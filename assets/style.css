@@ -311,13 +311,14 @@ header {
   background-color: white;
   flex-wrap: wrap;
   padding-top: 80px;
+  padding-top: 150px;
   padding-bottom: 100px;
 }
 .contact-info {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  width: 55%;
+  width: 50%;
   gap: 30px;
 }
 
@@ -345,10 +346,9 @@ header {
 }
 
 .contact-img {
-  width: 45%;
-  height: 700px;
+  width: 50%;
+  height: 300px;
   border-radius: 10px;
-  padding-left: 30px;
 }
 
 .contact-info i {
