@@ -19,7 +19,7 @@
 }
 @media screen and (max-width: 992px) {
   .navbar {
-    gap: 10px;
+    gap: 50px;
   }
   .menu-label {
     display: flex;
@@ -47,7 +47,7 @@
     padding-bottom: 70px;
   }
   .navbar-list a {
-    font-size: 30px;
+    font-size: 26px;
     gap: 50px;
   }
 
