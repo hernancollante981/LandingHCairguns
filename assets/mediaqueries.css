@@ -33,17 +33,18 @@
     top: 65px;
     left: 48%;
     right: 5%;
-    width: 50%;
+    width: 51%;
     position: absolute;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0px;
+    padding: 70px 0px;
     border: 2px solid var(--electric);
     border-radius: 0px 0px 15px 15px;
-    gap: 65px;
+    gap: 70px;
     z-index: 2;
-    background-color: rgba(255, 255, 255, 85%);
+    background-color: rgba(255, 255, 255, 75%);
     display: none;
+    padding-bottom: 70px;
   }
 
   #toggle-menu:checked + .navbar-list {
@@ -51,7 +52,7 @@
   }
 
   .hero-info {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -74,5 +75,44 @@
     justify-content: center;
     text-align: center;
     width: 350px;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  /*adaptado para celu*/
+  .hero-info {
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+  .hero-info-h1 {
+    background-color: red;
+    padding-left: 130px;
+    padding-right: 12px;
+  }
+
+  .hero-info p {
+    padding-right: 40px;
+    padding-left: 150px;
+  }
+
+  .button-container {
+    padding-left: 120px;
+  }
+
+  /*contact*/
+
+  .contact-info {
+    padding-top: 50px;
+    width: 100%;
+    padding-bottom: 80px;
+  }
+
+  .contact-img {
+    width: 100%;
+    padding-right: 10px;
   }
 }
