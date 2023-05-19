@@ -84,6 +84,10 @@
 
 @media screen and (max-width: 552px) {
   /*adaptado para celu*/
+  .navbar-list {
+    color: #1e50ff;
+    gap: 100px;
+  }
   .hero-info {
     padding-bottom: 80px;
     display: flex;
